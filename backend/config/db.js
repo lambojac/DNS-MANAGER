@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 //connecting to mongoose
-const config=mongoose.connect("mongodb+srv://kennie:869480Ak@cluster0.zkjbfkp.mongodb.net/ECOMMERCE?retryWrites=true&w=majority",{
+const config=mongoose.connect("",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
